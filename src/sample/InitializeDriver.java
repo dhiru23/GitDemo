@@ -27,5 +27,19 @@ public class InitializeDriver {
 		System.out.println("Page You Visited is: " + driver.getTitle());
 
 	}
+	
+	@Test
+	public static void PostJira() {
+		System.out.println("Post Jira 1");
+	}
+	
+	@Test
+	public static void PostJira2() {
+		System.out.println("Post Jira 2");
+	}
+	@Test
+	public static void PostJira3() {
+		System.out.println("Post Jira 3");
+	}
 
 }
